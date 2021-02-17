@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="button">
-			<a href="/expense-items/create" class="btn waves-effect waves-light cyan">Create Post<i class="material-icons right">create</i></a> <br> <br>
+			<a href="/bluedit-posts/create" class="btn waves-effect waves-light cyan">Create Post<i class="material-icons right">create</i></a> <br> <br>
 		</div>
 
 		<table class="tabled">
@@ -37,7 +37,7 @@
 				<tbody>
 					@foreach($expense_items as $expense_item)
 						<tr>
-							<td><a href="/expense-items/{{ $expense_item -> id }}">{{ $expense_item->id }}</a></td>
+							<td><a href="/bluedit-posts/{{ $expense_item -> id }}">{{ $expense_item->id }}</a></td>
 							<td>{{ $expense_item->description }}</td>
 						</tr>
 					@endforeach

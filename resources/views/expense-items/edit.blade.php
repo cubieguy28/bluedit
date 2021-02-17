@@ -16,7 +16,7 @@
 					<div class="container mid">
 
 				<h5>Update</h5>
-						<form action="/expense-items/{{ $expense_item->id }}" method="POST">
+						<form action="/bluedit-posts/{{ $expense_item->id }}" method="POST">
 							@method("PUT")
 							@include('layouts.errors')
 							@csrf

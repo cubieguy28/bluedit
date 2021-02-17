@@ -5,10 +5,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'ExpenseItemsController@index');
 
 //expenseitems table
-Route::get('/expense-items', 'ExpenseItemsController@index');
-Route::get('/expense-items/create', 'ExpenseItemsController@create'); // FIRST
-Route::get('/expense-items/{expense_item}', 'ExpenseItemsController@show');
-Route::post('/expense-items', 'ExpenseItemsController@store'); // SECOND
-Route::get('/expense-items/{expense_item}/edit', 'ExpenseItemsController@edit'); //THIRD
-Route::put('/expense-items/{expense_item}', 'ExpenseItemsController@update'); // FOURTH
-Route::delete('/expense-items/{expense_item}', 'ExpenseItemsController@destroy'); // FIFTH
+Route::get('/bluedit-posts', 'ExpenseItemsController@index');
+Route::get('/bluedit-posts/create', 'ExpenseItemsController@create'); // FIRST
+Route::get('/bluedit-posts/{expense_item}', 'ExpenseItemsController@show');
+Route::post('/bluedit-posts', 'ExpenseItemsController@store'); // SECOND
+Route::get('/bluedit-posts/{expense_item}/edit', 'ExpenseItemsController@edit'); //THIRD
+Route::put('/bluedit-posts/{expense_item}', 'ExpenseItemsController@update'); // FOURTH
+Route::delete('/bluedit-posts/{expense_item}', 'ExpenseItemsController@destroy'); // FIFTH

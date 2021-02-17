@@ -41,7 +41,7 @@ class ExpenseItemsController extends Controller
 
         $expense_item = ExpenseItem::create($validated_fields);
 
-    	return redirect('/expense-items');
+    	return redirect('/bluedit-posts');
     }
 
     public function edit(ExpenseItem $expense_item)
@@ -66,13 +66,13 @@ class ExpenseItemsController extends Controller
 
         $expense_item->update($validated_fields);
     	
-    	return redirect('/expense-items/');
+    	return redirect('/bluedit-posts/');
     }	
 
     public function destroy(ExpenseItem $expense_item)
     {
     	$expense_item->delete();
-    	return redirect('/expense-items');
+    	return redirect('/bluedit-posts');
     }
 
 }

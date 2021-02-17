@@ -17,7 +17,7 @@
 			<div class="row">
 					<div class="col s12">
 						<h5>Create Post</h5>
-						<form action="/expense-items" method="POST">
+						<form action="/bluedit-posts" method="POST">
 							@include('layouts.errors')
 							@csrf
 					      		

@@ -11,17 +11,13 @@ header{
 	background-position: center;
 }
 
-.main ul{
-	float: right;
+ul{
+	
 	list-style-type: none;
-	margin-top: 25px;
+	
 }
 
-.main ul li{
-	display: inline-block;
-}
-
-.main ul li a {
+ul li a {
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
@@ -29,9 +25,9 @@ header{
 	transition: 0.6s ease;
 }
 
-.main ul li a:hover{
+ul li a:hover{
 	background-color: #03F0FF;
-	color: #000;
+	color: #fff;
 }
 
 
@@ -49,9 +45,10 @@ header{
 }
 
 .main{
-	max-width: 1200px;
-	padding-top: 10px;
-	margin: auto;
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	transform: translate(-50%,-50%);
 }
 
 .title{

@@ -58,6 +58,8 @@ header{
 }
 
 .button2{
+	margin-top: 10px;
+	margin-left: 10px;
 	position: absolute;
 	top: 5%;
 	left: 85%;

@@ -27,6 +27,13 @@
 			<a href="/bluedit-posts/create" class="btn waves-effect waves-light cyan">Create Post<i class="material-icons right">create</i></a> <br> <br>
 		</div>
 
+		<div class="main">
+			<ul>
+				<li><a href="https://www.facebook.com/Bluedit-100821165392587" target="_blank">FACEBOOK PAGE</a></li>
+			</ul>
+			
+		</div>
+
 		<table class="tabled">
 				<thead>				
 					<tr>
